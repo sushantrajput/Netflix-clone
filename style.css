@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin: 0; 
+   
+        
+     
+}
+body{
+    background-color: black;
+}
+
+
+
+.main{
+    background-image: url(Assets/images/netflixbg.png);
+    height: 80vh;
+    position: relative;
+    
+    align-items: center;
+    background-position: center center;
+    background-size: max(1400px ,200vh);
+    background-repeat: no-repeat;
+
+
+}
+
+.main .box{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    opacity: 0.78;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+
+}
+
+nav{
+    max-width: 80vh;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center ;
+    align-items: center;
+    height: 82;
+}
+
+nav img{
+    color: red;
+    width: 94px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+   font-weight: 300;
+
+}
+.main .box .box{
+   width: fit-content;
+    height: 22vh;
+   padding: calc(184px);
+   position: relative;
+   text-align: center;
+   
+}
+.separation{
+    height: 5px;
+    background-color: rgb(99, 88, 88);
+    position: relative;
+    
+}
+.btn{
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 11px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    
+
+}
+.main input{
+    background-color: rgba(23,23,23,0.2);
+    border-radius: 6px;
+    stroke: white;
+    stroke-width: 17px;
+
+}
+
