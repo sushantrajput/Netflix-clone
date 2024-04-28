@@ -12,13 +12,13 @@ body{
 
 
 .main{
+    height: 90vh;
     background-image: url(Assets/images/netflixbg.png);
-    height: 80vh;
+    opacity: 0.38;
     position: relative;
-    
     align-items: center;
     background-position: center center;
-    background-size: max(1400px ,200vh);
+    background-size: max(1600px ,250vh);
     background-repeat: no-repeat;
 
 
@@ -28,21 +28,21 @@ body{
     height: 100vh;
     width: 100%;
     align-items: center;
-    opacity: 0.78;
-    background-color: black;
     position: absolute;
     top: 0%;
 
 }
 
 nav{
-    max-width: 80vh;
+    max-width: 140vh;
     justify-content: space-between;
-    margin: auto;
+    margin-top: -44px;
     display: flex;
+    padding-left: 334px;
+   height: -fit-content;
     align-items: center ;
     align-items: center;
-    height: 82;
+    
 }
 
 nav img{
@@ -75,7 +75,10 @@ nav button{
 .btn{
     padding: 5px 10px;
     font-weight: bold;
-    background-color: white;
+    margin-top: -488px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.111);
+    
 }
 .btn-red{
     background-color: red;
@@ -88,14 +91,199 @@ nav button{
 .btn-red-sm{
     background-color: red;
     color: white;
+    border-radius: 5px;
     
 
 }
 .main input{
-    background-color: rgba(23,23,23,0.2);
+   
     border-radius: 6px;
     stroke: white;
     stroke-width: 17px;
 
 }
+.box1{
+    position: relative;
+    margin-top: -400px;
+    height: 55vh;
+}
 
+.my-img{
+    opacity: 0.20;
+    
+}
+.box2{
+    height: 30px;
+    align-items: center;
+    width: 1300px;
+}
+.text1{
+    align-items: center;
+    padding-left: 200px;
+}
+.first{
+    display: flex;
+    height: 545px;
+
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    color: white;
+}
+.secImg img{
+    width: 39vw;
+    margin-left: 834px;
+    position:absolute;
+    z-index: 20;
+   
+}
+.secImg{
+    position: absolute;
+}
+.text3{
+    font-size: 48px;
+    margin-top: 123px;
+    height: 356px;
+    font-weight: bold;
+    max-width: 170vh;
+    margin-left: 195px;
+    
+}
+.text4{
+    margin-top: 187px;
+    margin-left: -384px;
+    font-size: 24px;
+    width: 494px;
+    
+    
+}
+.text5{
+    font-size: 52px;
+    font-weight: bolder;
+    margin-top: 69px;
+    width: 498px;
+}
+.text6{
+    margin-top: 258px;
+    margin-left: -497px;
+    font-size: 24px;
+    width: 423px;
+}
+   
+
+.secImg video{
+    position: absolute;
+    top: 51px;
+    margin-left: 854px;
+}
+.secImg1{
+    size: 20px;
+}
+.secImg4{
+    margin-top: 34px;
+    margin-left: 156px;
+}
+.text7{
+    margin-top: 204px;
+    margin-left: -495px;
+    font-size: 24px;
+    width: 523px;
+}
+.secImg2{
+    position: absolute;
+    margin-top: 53px;
+    size: 40px;
+    
+
+}
+.text2{
+    margin-top: 274px;
+    font-size: 24px;
+    margin-left: -420px;
+    width: 534px;
+}
+.text10{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 204px;
+    padding-left: 254px;
+}
+.secImg2 video{
+    position:relative;
+    z-index: 10;
+   margin-left: -487px;
+    margin-top: 34px;
+    
+    
+       
+    
+}
+.faq h2{
+    margin-top: -130px;
+    margin-bottom: 23px;
+    text-align: center;
+    font-size: 49px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 194px;
+}
+.faqbox:hover{
+    background-color: rgb(86, 79, 79);
+}
+.faqbox{
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: rgb(51, 45, 45);
+    padding: 24px;
+    width: 120vh;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.rtw{
+    margin-top: 33px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -215px;
+    
+
+}
+footer{
+    color: white;
+    margin: auto;
+    max-width: 60vh;
+    padding: 34px;
+}
+.footer a{
+    text-decoration: underline;
+    font-size: 14px;
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+}
+.footer-item{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    size: 18px;
+    width: 545px;
+    margin-left: -293px;
+
+}
+.question{
+    font-size: 18px;
+    margin-left: -293px;
+}
